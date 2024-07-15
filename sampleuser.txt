@@ -1,0 +1,8 @@
+{
+ 
+  "name": "priya",
+  "email": "rameshpriyait@gmail.com",
+  "mobile": 7418182749,
+  "password": "",
+  "role": "admin"
+}
