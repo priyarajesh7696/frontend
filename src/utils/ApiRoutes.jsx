@@ -1,0 +1,53 @@
+const ApiRoutes = {
+    SIGN_IN:{
+        path:'/user/login',
+        authenticate:false
+    },
+    SIGN_UP:{
+        path:'/user/createuser',
+        authenticate:true
+    },
+    GET_USER:{
+        path:'/user',
+        authenticate:true
+    },
+    UPDATE_USER:{
+        path:'/user/update',
+        authenticate:true
+    },
+    SEND_EMAIL:{
+        path:'/user/email-send',
+        authenticate:true
+    },
+    VERIFY_CODE:{
+        path:'/user/verify',
+        authenticate:true
+    },
+     RESET_PASSWORD:{
+        path:'/user/reset-password',
+        authenticate:true
+    },
+    GET_MESSAGE:{
+        path:'/user/get_message',
+        authenticate:true
+    },
+    POST_MESSAGE:{
+        path:'/user/post_message',
+        authenticate:true
+    },
+    MEMBER_CREATE:{
+        path:'/member/createmember',
+        authenticate:true
+    },
+    GET_MEMBER:{
+        path:'/member',
+        authenticate:true
+    },
+    UPDATE_MEMBER:{
+        path:'/member/update',
+        authenticate:true
+    },
+
+}
+
+export default ApiRoutes
