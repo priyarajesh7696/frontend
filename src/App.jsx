@@ -4,7 +4,7 @@ import Dashboard from './common_components/Dashboard'
 import Footer from './common_components/Footer'
 import {BrowserRouter,Routes, Route, Navigate} from 'react-router-dom'
 import Gallery from './common_components/Gallery'
-import Events from './common_components/Events'
+import Events from './common_components/Events';
 import Trainings from './common_components/Trainings'
 import Member_Dashboard from './members_component/Member_Dashboard'
 import Contacts from './common_components/Contacts'
